@@ -4,8 +4,8 @@ let button = document.querySelector('input[type="button"]');
 
 button.addEventListener('click', function() {
 	 let selectedIndex = select.selectedIndex;
-    // if (selectedIndex !== -1) {
+    if (selectedIndex !== -1) {
         select.remove(selectedIndex);
-    // }
+    }
 });
 
